@@ -39,7 +39,6 @@ const winTheGame = function () {
 //Wanneer je het spel verloren hebt
 const loseTheGame = function () {
   document.querySelector(".lose").style.display = "block";
-  document.querySelector(".lives").style.visibility = "hidden";
   gameOver = true;
 };
 
